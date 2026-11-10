@@ -1,0 +1,37 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Conda
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training outputs
+runs/
+*.pt
+*.onnx
+
+# Dataset files
+Data/construction-ppe/images/
+Data/construction-ppe/labels/
+Data/construction-ppe/construction-ppe.zip
+
+# IDE
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+#webcam vdo
+predict/*.avi
